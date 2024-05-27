@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
+<<<<<<< HEAD
 -- Generation Time: May 27, 2024 at 08:00 PM
+=======
+-- Generation Time: May 27, 2024 at 07:36 PM
+>>>>>>> bda284078c8c265a8d852b73f06afc0d623614cf
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -32,6 +36,7 @@ CREATE TABLE `class` (
   `name` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+<<<<<<< HEAD
 --
 -- Dumping data for table `class`
 --
@@ -39,6 +44,8 @@ CREATE TABLE `class` (
 INSERT INTO `class` (`id`, `name`) VALUES
 (1, 'class 1');
 
+=======
+>>>>>>> bda284078c8c265a8d852b73f06afc0d623614cf
 -- --------------------------------------------------------
 
 --
