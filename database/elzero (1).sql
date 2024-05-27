@@ -76,6 +76,14 @@ CREATE TABLE `emp` (
 -- --------------------------------------------------------
 
 --
+-- Dumping data for table `emp`
+--
+USE elzero;
+INSERT INTO emp(id,name,salary) VALUES (1,'abood',1500);
+
+
+-- --------------------------------------------------------
+--
 -- Table structure for table `shopmember`
 --
 
