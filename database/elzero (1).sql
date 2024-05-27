@@ -3,11 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
-<<<<<<< HEAD
--- Generation Time: May 27, 2024 at 08:00 PM
-=======
--- Generation Time: May 27, 2024 at 07:36 PM
->>>>>>> bda284078c8c265a8d852b73f06afc0d623614cf
+-- Generation Time: May 27, 2024 at 08:25 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -22,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `elzero`
+-- Database: `elzero(1)`
 --
 
 -- --------------------------------------------------------
@@ -36,7 +32,6 @@ CREATE TABLE `class` (
   `name` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-<<<<<<< HEAD
 --
 -- Dumping data for table `class`
 --
@@ -44,8 +39,6 @@ CREATE TABLE `class` (
 INSERT INTO `class` (`id`, `name`) VALUES
 (1, 'class 1');
 
-=======
->>>>>>> bda284078c8c265a8d852b73f06afc0d623614cf
 -- --------------------------------------------------------
 
 --
@@ -65,7 +58,8 @@ CREATE TABLE `clients` (
 INSERT INTO `clients` (`id`, `username`, `email`) VALUES
 (1, 'alsamet_a', 'a@gmail.com'),
 (2, 'alsamet_b', 'b@gmail.com'),
-(3, 'alsamet_c', 'c@gmail.com');
+(3, 'alsamet_c', 'c@gmail.com'),
+(4, 'alsamet_d', 'd@gmail.com');
 
 -- --------------------------------------------------------
 
