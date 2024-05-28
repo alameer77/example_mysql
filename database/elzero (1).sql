@@ -80,7 +80,7 @@ CREATE TABLE `emp` (
 --
 USE elzero;
 INSERT INTO emp(id,name,salary) VALUES (1,'abood',1500),
-(2,'ali',3000);
+(1,'abood',4000);
 
 
 -- --------------------------------------------------------
